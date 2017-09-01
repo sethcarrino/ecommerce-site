@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+/*************
+Main Styling
+**************/
+
+
+
+body {
+  font-family: 'Playfair Display';
+  color: black;
+}
+
+h2, h3 {
+  font-family: 'Abril Fatface';
+}
+
+h5 {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+}
+
+.desc-title {
+  padding-top: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  color: black;
+}
+
+.btn {
+  background-color: #2c3539;
+  font-family: 'Abril Fatface';
+  font-size: 30px;
+  color: white;
+}
+
+.buy-btn {
+  background-color: #af8368;
+  font-family: 'Abril Fatface';
+  font-size: 20px;
+  color: white;
+  margin-top: 1.5em;
+}
+
+.wishlist-btn {
+  background-color: #2c3539;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  color: white;
+  margin-top: 1.5em;
+}
+
+
+
+.desc-title:after {
+   content: "";
+   display: block;
+   margin: 0 auto;
+   width: 20%;
+   padding-top: 20px;
+   border-bottom: 1px solid black;
+}
+
+.page-title{
+  color: white;
+  font-family: 'Abril Fatface';
+  text-transform: lowercase;
+  font-size: 4em;
+}
+
+.page-sub-title {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Playfair Display';
+  font-size: 1em;
+}
+
+/*************
+App Styling
+**************/
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+/*************
+Navigation Styling
+**************/
+
+nav a {
+  text-decoration: none;
+  padding-right: 2em;
+  color: white;
+  font-family: 'Playfair Display';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #ecece2;
+}
+
+.nav-link{
+  padding-top: 1em;
+}
+
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2.5em;
+  background-position: transparent;
+}
+
+.navbar-header {
+  width: 100%;
+  background-color: transparent;
+
+}
+
+.nav-link-a {
+  color: black;
+}
+
+.sub-menu {
+  margin-left: 1em;
+}
+
+
+/*************
+Gallery Styling
+**************/
+
+.featured-gallery {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.featured-gallery > div {
+  width: 25%;
+}
+
+.featured-image {
+  width: 100%;
+  padding: 1em;
+}
+
+/*************
+Home Styling
+**************/
+
+.slider{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  margin-top: -3em;
+}
+
+.page-slider{
+  height: 40vh;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../page-header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  margin-top: -3em;
+  padding-left: 3em;
+}
+
+.title {
+  color: white;
+  font-family: 'Abril Fatface';
+  text-transform: lowercase;
+  font-size: 7em;
+  opacity: 1;
+  animation: fade 2s linear;
+}
+
+@keyframes title {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+.sub-title {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Playfair Display';
+}
+
+.small-title {
+  color: white;
+  font-family: 'Abril Fatface';
+  text-transform: lowercase;
+  font-size: 1em;
+  text-align: center;
+}
+
+
+/*************
+About Styling
+**************/
+
+.about-content {
+  padding-top: 4em;
+  padding-bottom: 5em;
+}
+
+.page-info-title {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/*************
+Contact Styling
+**************/
+
+.contact-content {
+  padding: 5em 8em;
+}
+
+form h3 {
+ padding-bottom: 1em;
+}
+
+/*************
+Shop Styling
+**************/
+
+.shop-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3em 3em;
+  justify-content: center;
+}
+
+
+.record-info{
+  width: 30%;
+  padding: 1em;
+}
+
+.record-image {
+  width: 100%;
+}
+
+.record-artist {
+  padding-top: .5em;
+  color: black;
+}
+
+.record-title {
+  color: black;
+}
+
+/*************
+Footer Styling
+**************/
+
+.footer {
+  background-color: #2c3539;
+  padding-left: 2em;
+}
+
+.footer-info{
+  color: white;
+  display: flex;
+}
+
+.widget {
+  padding: 1em;
+}
+
+.widget-title {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: 'Abril Fatface';
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin: 0px;
+  padding-bottom: 1em;
+}
