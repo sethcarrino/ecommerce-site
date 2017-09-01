@@ -3,3 +3,5 @@
 
 ## Overview
 > Using React and React Router I created an e-commerce mock site that sells vinyls.
+
+![](screenshot.png)
