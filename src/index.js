@@ -24,6 +24,7 @@ ReactDOM.render(
     <BaseLayout>
       <Switch>
         <Route exact path="/" component={App}/>
+        <Route path="/ecommerce-site" component={App} />
         <Route path="/about" component={About} />
         <Route path="/shop/classic" component={Classic} />
         <Route path="/shop/trap" component={Trap} />
